@@ -1,0 +1,230 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+/* Make Header Sticky */
+body{
+background-size: 2000px 2000px;
+    background-repeat:no-repeat;
+    background-image:url('bg1.jpg');
+    background-blend-mode:darken;
+}
+h2{
+	margin:5px;
+	text-align:center;
+	font-family:"Gunplay";
+}
+#reach{margin:0;
+font-family:"Gunplay";
+color:orange;}
+#events{
+	position:absolute;
+	font-family:"Gunplay";
+	top:140px;
+	margin:0px;
+	padding:10px;
+	left:1000px;
+	border-radius:4px;
+	background-color:rgba(0,0,0,0.3);
+}
+#notifications{
+	position:absolute;
+	padding:10px;
+	font-family:"Gunplay";
+	top:140px;
+	left:20px;
+	margin:0px;
+	border-radius:4px;
+	background-color:rgba(0,0,0,0.3);
+}
+#noti{
+	padding:1px;
+	color:Darkorange;
+	margin:0px;
+	border-radius:4px;
+	text-align:center;
+	background:rgba(0,0,0,0.7);
+}
+#dhi{
+	padding:1px;
+	text-align:center;
+	color:rgb(255,179,39);
+	background:rgba(0,0,0,0.6);
+	border-radius:4px;
+	padding:0px;
+	margin:2px;
+}
+#on{
+	padding:1px;
+	color:Darkorange;
+	margin:0px;
+	border-radius:4px;
+	text-align:center;
+	background:rgba(0,0,0,0.7);
+}
+#ti{
+	padding:1px;
+	text-align:center;
+	color:rgb(255,179,39);
+	background:rgba(0,0,0,0.6);
+	border-radius:4px;
+	padding:0px;
+	margin:2px;
+}
+#im1{
+	margin:0px;
+	border:2px solid white;
+	border-radius:4px;
+}
+ul{
+	position:absolute;
+	top:100px;
+	width:100%;
+	margin:0px;
+	background:rgba(0,0,0,0.8);
+	border:1px solid rgba(0,0,0,0.8);
+	  border-radius:4px;
+}
+input.hoverable{padding-left:105px;padding-right:105px;color:black ;text-align:center;background-color:rgb(255,127,39); border:2px solid rgb(255,127,39);border-radius:5px;font-family:Gunplay;
+}
+input.hoverable:hover{
+	border:2px solid orange;border-radius:5px;
+	background:orange;
+}
+a.hoverable2{
+	 color:orange; padding:0px; margin-top:5px;
+}
+li{
+	  display:inline;
+	  border:2px solid orange;
+	  border-radius:4px;
+	  padding:5px;
+	  padding-left:28px;
+	  padding-right:28px;
+	  font-family:"Gunplay";
+	  background:orange;
+list-style:none;
+		   }
+li:hover{
+	background:rgb(255,179,128);
+	border:2px solid rgb(255,179,128);
+	  border-radius:4px;
+}
+	
+#register{
+text-align:center;
+font-family:"Gunplay";
+}
+a:hover{
+	color:white;
+}
+#header_container {
+
+    background:rgba(0,0,0,0.8);
+    z-index:2;
+
+
+    height:80px;
+
+    left:0;
+
+    position:fixed;
+
+    width:100%;
+
+    top:0;
+}
+#logo{
+position:fixed;
+left:10px;
+top:0;
+}
+#fm{
+color:orange;
+	padding:20px;
+	padding-left:60px;
+	padding-right:60px;
+	padding-bottom:20px;
+text-align:left;
+	font-family:Calibri;
+	border-radius:10px;
+    z-index:1;
+	background-color:rgba(0,0,0,0.6);
+	position:absolute;
+	left:500px;
+	top:200px;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+#pass{
+	margin:0px;
+font-family:"Gunplay";
+}
+#use{
+	margin:0px;
+font-family:"Gunplay";
+}
+#header {
+    font-family:"Gunplay";
+    color:orange;
+    font-size:60px;
+    line-height:40px;
+border:4px solid orange;
+border-top:0px;
+border-bottom:0px;
+border-radius:10px;
+    margin:0 auto;
+    width:400px;
+    text-align:Center;
+}
+/* CSS for the content of page. I am giving top and bottom padding of 80px to make sure the header and footer do not overlap the content.*/
+
+#container {
+
+    margin:0 auto;
+    overflow:auto;
+    padding:80px 0;
+    width:940px;
+
+}
+
+#content {
+
+}
+
+/* Make Footer Sticky */
+
+#footer_container {
+
+    background:#eee;
+
+    border:1px solid #666;
+
+    top:1100px;
+
+    background:rgba(0,0,0,0.8);
+    z-index:2;
+    height:400px;
+    left:0;
+	position:absolute;
+
+    width:100%;
+}
+
+
+#footer {
+
+    line-height:60px;
+
+    margin:0 auto;
+
+    width:940px;
+	font-family:"Gunplay";
+color:orange;
+
+    text-align:center;
+
+}

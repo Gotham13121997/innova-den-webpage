@@ -1,0 +1,144 @@
+#header_container {
+
+    background:rgba(0,0,0,0.8);
+    z-index:2;
+
+
+    height:80px;
+
+    left:0;
+
+    position:fixed;
+
+    width:100%;
+
+    top:0;
+}
+#logo{
+position:fixed;
+left:10px;
+top:0;
+}
+#header {
+    font-family:"Gunplay";
+    color:orange;
+    font-size:60px;
+    line-height:80px;
+border:4px solid orange;
+border-top:0px;
+border-bottom:0px;
+border-radius:10px;
+    margin:0 auto;
+    width:400px;
+    text-align:Center;
+}
+#email1
+{
+	margin:0px;
+	font-family:"Gunplay";
+}
+#pass{
+	margin:0px;
+font-family:"Gunplay";
+}
+#use{
+	margin:0px;
+font-family:"Gunplay";
+}
+#name{
+	margin:0px;
+font-family:"Gunplay";
+}
+#male{
+	margin:0px;
+font-family:"Gunplay";
+}
+#female{
+	margin-bottom:5px;
+font-family:"Gunplay";
+}
+#confirm{
+	margin:0px;
+font-family:"Gunplay";
+}
+#phoneno{
+	margin:0px;
+font-family:"Gunplay";
+}
+#ins{
+	margin:0px;
+font-family:"Gunplay";
+}
+h2{
+	margin:5px;
+	text-align:center;
+	font-family:"Gunplay";
+}
+body{
+background-size: 2000px 2000px;
+    background-repeat:no-repeat;
+    background-image:url('bg1.jpg');
+    background-blend-mode:darken;
+}
+#footer_container {
+
+    background:#eee;
+
+    border:1px solid #666;
+
+    top:600px;
+
+    background:rgba(0,0,0,0.8);
+    z-index:2;
+
+
+    height:350px;
+
+
+    left:0;
+    
+	position:absolute;
+
+    width:100%;
+}
+
+#footer {
+
+    line-height:60px;
+
+    margin:0 auto;
+
+    width:940px;
+	font-family:"Gunplay";
+color:orange;
+
+    text-align:center;
+
+}
+#fm{
+color:orange;
+	padding:20px;
+	padding-left:60px;
+	padding-right:60px;
+	padding-bottom:20px;
+text-align:left;
+	font-family:Calibri;
+	border-radius:10px;
+    z-index:1;
+	background-color:rgba(0,0,0,0.6);
+	position:absolute;
+	left:350px;
+	top:150px;
+}
+a.hoverable{padding-left:105px;padding-right:105px;color:black ;padding-bottom:1px; padding-top:1px; font-size:17px; text-align:center; background-color:rgb(255,127,39); border:2px solid rgb(255,127,39);border-radius:5px;font-family:Gunplay;
+}
+a.hoverable:hover{
+	border:2px solid orange;border-radius:5px;
+	background:orange;
+}
+input.hoverable{padding-left:105px;padding-right:105px;color:black ;font-size:17px; text-align:center; background-color:rgb(255,127,39); border:2px solid rgb(255,127,39);border-radius:5px;font-family:Gunplay;
+}
+input.hoverable:hover{
+	border:2px solid orange;border-radius:5px;
+	background:orange;
+}

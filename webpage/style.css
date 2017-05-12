@@ -1,0 +1,32 @@
+h1{
+	font-family:Helvetica;
+	color:Brown;
+	position:fixed;
+	font-size:50px;
+	width:100%;
+    margin:0px;
+	top:0px;
+	background-color:rgba(255,255,255,0.3);
+}
+body{
+	background-color:Lightgreen;
+}
+form{
+	padding:20px;
+	font-family:Calibri;
+	border-radius:10px;
+	background-color:rgba(255,255,255,0.3);
+	position:absolute;
+	left:495px;
+	top:100px;
+}
+#submit{
+	padding:16px;
+	border-radius:10px;
+	color:white;
+	background-color:Orange;
+}
+#submit:hover{
+	color:black;
+	background-color:white;
+}
